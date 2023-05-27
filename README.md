@@ -157,6 +157,22 @@ No known bugs at this time.
 Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twitter.com/alexa_orrico)  
 Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)
 
+Absalom obala - obash-cpu github account https://github.com/obash-cpu/AirBnB_clone_v3.git
+
+##i want to add new tests to the project
+## Update DBStorage and FileStorage, adding two new methods. All changes should be done in the branch storage_get_count:
+
+A method to retrieve one object:
+
+Prototype: def get(self, cls, id):
+cls: class
+id: string representing the object ID
+Returns the object based on the class and its ID, or None if not found
+A method to count the number of objects in storage:
+
+Prototype: def count(self, cls=None):
+cls: class (optional)
+Returns the number of objects in storage matching the given class. If no class is passed, returns the count of all objects in storage.
 Second part of Airbnb: Joann Vuong
 ## License
 Public Domain. No copy write protection. 
